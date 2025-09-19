@@ -40,7 +40,7 @@ SECRET_KEY = 'django-insecure-au96*$7#e@&&q%jnh)i--g5tii9dg1n+e6($0z-n5yqw*lh4br
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost','*','youtu-3kgi.onrender.com']
 
 
 # Application definition
