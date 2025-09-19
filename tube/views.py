@@ -6,7 +6,7 @@ def youtube(request):
         link = request.POST['link']
         ydl_opts = {
             'format': 'bestvideo+bestaudio',
-            'ffmpeg_location': r'C:\Users\LENOVO\bin',
+            'ffmpeg_location': r'bin',
             'outtmpl': r'C:\Users\LENOVO\Downloads\%(title)s.%(ext)s',
         }
         try:
