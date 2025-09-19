@@ -7,7 +7,7 @@ def youtube(request):
         ydl_opts = {
             'format': 'bestvideo+bestaudio',
             'ffmpeg_location': r'bin',
-            'cookies' :r'chromewebstore.google.com_cookies.txt',
+            'cookies' :r'www.youtube.com_cookies.txt',
             'outtmpl': 'downloads/%(title)s.%(ext)s'
         }
         try:
