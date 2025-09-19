@@ -7,7 +7,8 @@ def youtube(request):
         ydl_opts = {
             'format': 'bestvideo+bestaudio',
             'ffmpeg_location': r'bin',
-            'outtmpl': r'C:\Users\LENOVO\Downloads\%(title)s.%(ext)s',
+            'cookies' :r'cookies.txt',
+            'outtmpl': 'downloads/%(title)s.%(ext)s'
         }
         try:
             with youtube_dl.YoutubeDL(ydl_opts) as ydl:
